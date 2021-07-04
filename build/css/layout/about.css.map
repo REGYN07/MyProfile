@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/about.scss"],"names":[],"mappings":"AAAA,OAEI,mBAAoB,CAFxB,SAKQ,kBAAmB","file":"about.css","sourcesContent":[".about{\r\n\r\n    padding: 8rem 4.5rem;\r\n\r\n    p{\r\n        text-align: justify;\r\n    }\r\n}"]}

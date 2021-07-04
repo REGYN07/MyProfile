@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    
+    <div class="grid contenedor">
+        <button class="nav-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg>
+        </button>
+        <div class="profile">
+            
+            <div class="info">
+
+                <div class="info__author">
+                    <div class="img__author">
+                        <img src="src/img/img.jpg" alt="">
+
+                    </div>
+                    <h4>Regino M</h4>
+                </div>
+
+                <div class="main-nav">
+                    <nav class="main-menu">
+                        <a href="#about">Acerca de mi</a>
+                        <a href="#skills">Habilidades</a>
+                        <a href="#proyects">Proyectos</a>
+                        <a href="#contact">Contacto</a>
+                    </nav>
+                </div>
+
+                <div class="social-network">
+                    <a href="https://www.linkedin.com/in/regino-martínez-7267a120b/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+                    <a href=""><img src="https://img.icons8.com/color/48/000000/whatsapp.png"/></a>
+                    <a href="https://www.facebook.com/regynoo.martinezgonzalez"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                                        
+                </div>
+
+                <div class="copyright-text">
+                    <p>Copyright 2019 Regino M. González</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="information ">
+            <section id="about" class="about-me">
+                <div class="about">
+                    <h2>Acerca de mi</h2>
+                    <div class="line"></div>
+                    <p>Mi nombre es Regino Martínez González soy 
+                        desarrollador de páginas web y aplicaciones 
+                        móviles jr. En estos momentos siento que ha 
+                        llegado el momento de cambiar de aires y llevar a 
+                        cabo una nueva experiencia profesional. Sin duda, 
+                        creo que su compañía es la perfecta para lograrlo.</p>
+
+                        <div class="logros">
+                            <div class="logro">
+                                <img src="src/img/developer.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore iure repellat nostrum ex inventore iusto sapiente, vel laboriosam modi esse! Error magnam quaerat maiores ipsa, consectetur omnis animi facere!</p>
+                                <img class="mty" src="src/img/developer.jpg" alt="">
+                                <p class="mty-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore iure repellat nostrum ex inventore iusto sapiente, vel laboriosam modi esse! Error magnam quaerat maiores ipsa, consectetur omnis animi facere!</p>
+                            </div>
+                        </div>
+                </div>
+
+                
+            </section>
+
+            <section id="skills" class="skill-section">
+                <h2>Habilidades</h2>
+                <div class="line"></div>
+
+                <div class="skills">
+                    <div class="skill">
+                        <img src="https://img.icons8.com/color/96/000000/html-5--v1.png"/>
+                        <p>HTML5</p>
+                    </div>
+    
+                    <div class="skill">
+                        <img src="https://img.icons8.com/color/96/000000/css3.png"/>
+                        <p>CSS3</p>
+                    </div>
+    
+                    <div class="skill">
+                        <img src="https://img.icons8.com/color/96/000000/javascript--v1.png"/>
+                        <p>Javascript</p>
+                    </div>
+    
+                    <div class="skill">
+                        <img src="https://img.icons8.com/color/96/000000/mysql-logo.png"/>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skill">
+                        <img src="https://img.icons8.com/color/96/000000/kotlin.png"/>
+                        <p>Kotlin</p>
+                    </div>
+                    <div class="skill">
+                        <img src="https://img.icons8.com/officel/96/000000/php-logo.png"/>
+                        <p>PHP</p>
+                    </div>
+                </div>               
+
+            </section>
+
+            <section id="proyects" class="proyects">
+                <h2>Proyectos</h2>
+                <div class="line"></div>
+
+                <div class="tabs-container">
+                    <div class="buttons-container">
+                        <button data-paso="1">Web</button>
+                        <button data-paso="2">Android</button>
+                        <button data-paso="3">Otros</button>
+                    </div>
+
+                    <div id="paso-1" class="seccion">
+                        <div class="content">
+                            <img src="src/img/img.jpg" alt="">
+                            <img src="src/img/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="paso-2" class="seccion">
+                        <div class="content">
+                            <img src="src/img/img.jpg" alt="">
+                            <img src="src/img/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="paso-3" class="seccion">
+                        <div class="content">
+                            <img src="src/img/img.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Contacto</h2>
+
+                <form class="form" action="">
+                    
+
+
+                        <div>
+                            <input type="text" placeholder="Tu nombre">
+                        </div>
+
+                        <div>
+                            <input type="text" placeholder="Tu correo">
+                        </div>
+
+                        <div>
+                            <textarea placeholder="Tu mensaje" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <input type="submit" value="Enviar">
+                    
+                </form>
+
+            </section>
+        </div>
+    </div>
+
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
